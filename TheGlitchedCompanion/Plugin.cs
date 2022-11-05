@@ -1,9 +1,8 @@
 using BepInEx;
-using System.Collections.Generic;
+using System.Reflection;
 using BepInEx.Logging;
 using HarmonyLib;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace TheGlitchedCompanion
 {
@@ -14,6 +13,7 @@ namespace TheGlitchedCompanion
         private const string ModName = "The Glitched Companion";
         private const string ModVersion = "1.0.0-beta";
         public static ManualLogSource log;
+        public static Plugin instance_;
 
         private void Awake()
         {
@@ -22,19 +22,24 @@ namespace TheGlitchedCompanion
             log = Logger;
             var harmony = new Harmony(ModGuid);
             harmony.PatchAll();
+            instance_ = this;
         }
 
-        [HarmonyPatch(typeof(Player_Move), "Update")]
-        public static class Get_Player_P
+        private void ObtainAndProcessPlayer()
         {
-            public static void Postfix(ref Player_Move __instance)
-            {
-                GameObject player = __instance.gameObject;
-                NetworkBootstrap.InjectNetworkObject(ref player);
-                Data.Player1_P = player;
-                log.LogInfo("Player object saved");
-            }
+            var player = GameObject.FindWithTag("Player");
+            NetworkBootstrap.InjectNetworkObject(ref player);
+            Data.Player1_P = player;
+            log.LogInfo("Player object saved");
         }
+
+        public void InitializeAndStartMultiplayer()
+        {
+            ObtainAndProcessPlayer();
+            InitNetworking();
+            log.LogInfo("Starting Multiplayer");
+        }
+        
         [HarmonyPatch(typeof(Warehouse_SpawnEnnard), "OnTriggerEnter")]
         public static class Get_Player_E
         {
@@ -43,7 +48,10 @@ namespace TheGlitchedCompanion
                 GameObject ennard = __instance.ennard;
                 Destroy(ennard.GetComponent<Ennard_AI>());
                 Data.Player2_E = ennard;
+                Data.Player2_E_Initialized = true;
                 log.LogInfo("Ennard AI nuked & saved");
+                
+                Plugin.instance_.InitializeAndStartMultiplayer();
             }
         }
         
@@ -57,6 +65,12 @@ namespace TheGlitchedCompanion
         private void Update()
         {
             DebugPatches.Update();
+            /* Log ennard position
+            if (Data.Player2_E_Initialized)
+            {
+                var position = Data.Player2_E.transform.position;
+                log.LogInfo($"Ennard pos: {position.x} / {position.y} / {position.z}");
+            }*/
         }
 
         [HarmonyPatch(typeof(MainMenu_VersionTextManager), "Start")]
