@@ -1,0 +1,13 @@
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Debug\net35\TheGlitchedCompanion.dll
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Debug\net35\TheGlitchedCompanion.pdb
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Debug\net35\0Harmony.dll
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Debug\net35\BepInEx.Core.dll
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Debug\net35\BepInEx.Unity.dll
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.csproj.AssemblyReference.cache
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.GeneratedMSBuildEditorConfig.editorconfig
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.AssemblyInfoInputs.cache
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.AssemblyInfo.cs
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.csproj.CoreCompileInputs.cache
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.csproj.CopyComplete
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.dll
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\net35\TheGlitchedCompanion.pdb

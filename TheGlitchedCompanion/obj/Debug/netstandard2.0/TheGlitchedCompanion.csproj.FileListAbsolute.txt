@@ -1,0 +1,5 @@
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\netstandard2.0\TheGlitchedCompanion.csproj.AssemblyReference.cache
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\netstandard2.0\TheGlitchedCompanion.GeneratedMSBuildEditorConfig.editorconfig
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\netstandard2.0\TheGlitchedCompanion.AssemblyInfoInputs.cache
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\netstandard2.0\TheGlitchedCompanion.AssemblyInfo.cs
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Debug\netstandard2.0\TheGlitchedCompanion.csproj.CoreCompileInputs.cache
