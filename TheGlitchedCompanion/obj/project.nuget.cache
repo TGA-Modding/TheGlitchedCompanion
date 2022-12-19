@@ -1,23 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JIZayONMCNUV+5QarW6Q8U2Ix4yNai/Iv3AnA6Z2OxxUb2Jk8njIPIGfGm7rOEIE2DiZkVIJKNDLklCuzihusQ==",
+  "dgSpecHash": "SYCKOg2H4CsrplK5/xdoguCVrzZ30toIIk8i0Pi1Y9iqmj0qK9uPMVmRcL/MRNVyg4AA58z6RhCVSdOr+lWlkg==",
   "success": true,
   "projectFilePath": "D:\\tga mod\\TheGlitchedCompanion\\TheGlitchedCompanion\\TheGlitchedCompanion.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\reddust9\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.2\\microsoft.netframework.referenceassemblies.1.0.2.nupkg.sha512",
-    "C:\\Users\\reddust9\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net461\\1.0.2\\microsoft.netframework.referenceassemblies.net461.1.0.2.nupkg.sha512",
-    "C:\\Users\\reddust9\\.nuget\\packages\\unityengine.modules\\2020.3.13\\unityengine.modules.2020.3.13.nupkg.sha512"
-  ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "TheGlitchedCompanion depends on UnityEngine.Modules (>= 5.6.0) but UnityEngine.Modules 5.6.0 was not found. An approximate best match of UnityEngine.Modules 2020.3.13 was resolved.",
-      "libraryId": "UnityEngine.Modules",
-      "targetGraphs": [
-        ".NETStandard,Version=v2.1"
-      ]
-    }
-  ]
+  "expectedPackageFiles": [],
+  "logs": []
 }

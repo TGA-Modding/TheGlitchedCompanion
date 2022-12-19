@@ -15,7 +15,9 @@ D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Release\netstandard2.1\
 D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Release\netstandard2.1\TheGlitchedCompanion.csproj.CopyComplete
 D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Release\netstandard2.1\TheGlitchedCompanion.dll
 D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\obj\Release\netstandard2.1\TheGlitchedCompanion.pdb
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Release\netstandard2.1\UnityEngine.CoreModule.dll
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Release\netstandard2.1\UnityEngine.dll
 D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Release\netstandard2.1\Unity.Multiplayer.Tools.Common.dll
 D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Release\netstandard2.1\Unity.Netcode.Components.dll
 D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Release\netstandard2.1\Unity.Netcode.Runtime.dll
-D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Release\netstandard2.1\Unity.Networking.Transport.dll
+D:\tga mod\TheGlitchedCompanion\TheGlitchedCompanion\bin\Release\netstandard2.1\UnityEngine.InputLegacyModule.dll
